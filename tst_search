@@ -1,0 +1,56 @@
+{
+  "id": "3666c883-4872-4041-a450-e3e648932e32",
+  "version": "2.0",
+  "name": "RuangGuruTesting",
+  "url": "http://skillacademy.com/",
+  "tests": [{
+    "id": "c1ad0372-4b08-485d-8e79-c2a78d286674",
+    "name": "Search_mod",
+    "commands": []
+  }, {
+    "id": "1195071b-dc88-4bef-aa1a-877cfe718c7c",
+    "name": "search_test",
+    "commands": [{
+      "id": "243e172c-1e67-47e4-a15c-406f1ac9fc8f",
+      "comment": "",
+      "command": "open",
+      "target": "http://skillacademy.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "695e774e-e592-4e71-b0d2-373ac98aa855",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-1j8fjmh",
+      "targets": [
+        ["css=.css-1j8fjmh", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "matematika"
+    }, {
+      "id": "d9cb4086-440f-43f8-8769-13e1e9729a4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-13ksas7 > img",
+      "targets": [
+        ["css=.css-13ksas7 > img", "css:finder"],
+        ["xpath=//img[@alt='Search Black']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80a62145-1592-4406-9c95-7a1955c2d3f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1ad0372-4b08-485d-8e79-c2a78d286674"]
+  }],
+  "urls": ["http://skillacademy.com/"],
+  "plugins": []
+}
