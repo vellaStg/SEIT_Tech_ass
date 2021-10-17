@@ -18,9 +18,21 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "695e774e-e592-4e71-b0d2-373ac98aa855",
+      "id": "414e1fc9-8332-4e9e-8304-6bcd356c6bde",
       "comment": "",
-      "command": "type",
+      "command": "mouseOver",
+      "target": "css=.css-oenrgj:nth-child(4) .css-1etxhup",
+      "targets": [
+        ["css=.css-oenrgj:nth-child(4) .css-1etxhup", "css:finder"],
+        ["xpath=//div[@id='main-scrollview']/div/div/div/div/div[4]/a/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Pemasaran')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc790dad-a41d-4cda-a9f3-90fe20a9cc3e",
+      "comment": "",
+      "command": "click",
       "target": "css=.css-1j8fjmh",
       "targets": [
         ["css=.css-1j8fjmh", "css:finder"],
@@ -28,9 +40,21 @@
         ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "28fb406d-b908-400e-87d4-230e9455873b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-1j8fjmh",
+      "targets": [
+        ["css=.css-1j8fjmh", "css:finder"],
+        ["xpath=//input[@value='matematika']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
       "value": "matematika"
     }, {
-      "id": "d9cb4086-440f-43f8-8769-13e1e9729a4f",
+      "id": "a282e65f-8d6f-45e1-b825-72ec4236c6cf",
       "comment": "",
       "command": "click",
       "target": "css=.css-13ksas7 > img",
@@ -40,6 +64,25 @@
         ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div[2]/img", "xpath:idRelative"],
         ["xpath=//div[2]/img", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "f96668b5-517a-4ffc-b645-56d08a007a60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1ibwzdy:nth-child(1) .css-1oohd5r",
+      "targets": [
+        ["css=.css-1ibwzdy:nth-child(1) .css-1oohd5r", "css:finder"],
+        ["xpath=//div[@id='main-scrollview']/div/div[2]/div/div/a/div/div/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Tryout SKB CPNS Guru Matematika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0608bd-ebe4-4810-a311-3f77c6ddaab5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
